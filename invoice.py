@@ -1,2 +1,2 @@
 from weasyprint import HTML
-pdf = HTML('invoice.html').write_pdf()
+HTML('invoice.html').write_pdf(target='invoice.pdf')
